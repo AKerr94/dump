@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html class="js" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://52.19.82.119/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://52.19.82.119/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>DevOps Case Study | documentation method for the DevOps 2015 case study</title>
+<meta name="robots" content="noindex,follow">
+<link rel="alternate" type="application/rss+xml" title="DevOps Case Study » Feed" href="http://52.19.82.119/index.php/feed/">
+<link rel="alternate" type="application/rss+xml" title="DevOps Case Study » Comments Feed" href="http://52.19.82.119/index.php/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/52.19.82.119\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/wp-emoji-release.js"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="open-sans-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/dashicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="admin-bar-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/admin-bar.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfifteen-fonts-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/genericons.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfifteen-style-css" href="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://52.19.82.119/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://52.19.82.119/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/jquery.js"></script>
+<script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/jquery-migrate.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://52.19.82.119/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://52.19.82.119/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.2.4">
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+</head>
+
+<body class="home blog logged-in admin-bar  customize-support">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div style="top: 0px;" id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<h1 class="site-title"><a href="http://52.19.82.119/" rel="home">DevOps Case Study</a></h1>
+											<p class="site-description">documentation method for the DevOps 2015 case study</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://52.19.82.119/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input class="search-field" placeholder="Search …" name="s" title="Search for:" type="search">
+				</label>
+				<input class="search-submit screen-reader-text" value="Search" type="submit">
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+					<li>
+				<a href="http://52.19.82.119/index.php/2015/08/20/sql-backup-scripts/">SQL Backup Scripts</a>
+						</li>
+					<li>
+				<a href="http://52.19.82.119/index.php/2015/08/20/rds-aws-mysql/">RDS AWS MYSQL</a>
+						</li>
+					<li>
+				<a href="http://52.19.82.119/index.php/2015/08/20/infrastructure-diagrams-and-plans/">Infrastructure Diagrams and Plans</a>
+						</li>
+					<li>
+				<a href="http://52.19.82.119/index.php/2015/08/20/jenkins-notifications/">Jenkins Notifications</a>
+						</li>
+					<li>
+				<a href="http://52.19.82.119/index.php/2015/08/20/standup-meeting-20th-august-2015/">Standup Meeting 20th August 2015</a>
+						</li>
+				</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow" class="url">Mr WordPress</a></span> on <a href="http://52.19.82.119/index.php/2015/08/18/hello-world/#comment-1">Setting up a Puppet module to automate activities</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
+	<li><a href="http://52.19.82.119/index.php/2015/08/">August 2015</a></li>
+		</ul>
+</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://52.19.82.119/index.php/category/uncategorized/">Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+			<li><a href="http://52.19.82.119/wp-admin/">Site Admin</a></li>			<li><a href="http://52.19.82.119/wp-login.php?action=logout&amp;_wpnonce=6f8e5fc4af">Log out</a></li>
+			<li><a href="http://52.19.82.119/index.php/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://52.19.82.119/index.php/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+			
+<article id="post-65" class="post-65 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/20/sql-backup-scripts/" rel="bookmark">SQL Backup Scripts</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>We are using 2 databases for this system. One is the local database
+ running on LAMP stack for Word Press and we have the RDS cloud MySQL 
+database running on Amazon Web services for the php web application.</p>
+<p><strong>RDS Backup Script</strong></p>
+<p>I created a backup script which creates folders using the day’s date 
+and dumps SQL tables into a file which is named after the time it is 
+created. The script first checks if there is directory for the day. If 
+not it first creates a directory and dumps the SQL data into it. If the 
+directory already exists, it skips creating it and only dumps the data 
+into the directory on the current date. The shell command to dump sql 
+data is following:</p>
+<blockquote><p>mysqldump –user ${USER} -p${PASS} –host ${DBSERVER} –databases ${DATABASE} &gt; $BACKUPDIRPATH$DATE/$FILE</p></blockquote>
+<p><strong>Logs</strong></p>
+<p>To ensure we are able to troubleshoot if the backups are not running.
+ I am saving confirmation of each instance into a log file. The log file
+ writes and confirms that steps are being undertaken.</p>
+<p><strong>Cronjob</strong></p>
+<p>Crontab is a linux in-built scheduler which runs scripts on a timely 
+basis. This is the way to automate the script to run every hour. To do 
+this, following commands were used:</p>
+<blockquote><p>crontab -e # To edit crontab file</p>
+<p>0 * * * * /PATH-TO-SCRIPT.sh # insert this to ensure it runs hourly</p>
+<p>crontab -l # To list the cronjobs currently being executed</p></blockquote>
+<p>Script Screenshot:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/HFwB454.png" alt="" height="403" width="665"></p>
+<p><strong>S3 Bucket</strong></p>
+<p>All the backups are automatically stored to S3 bucket on Amazon Web 
+Services. To do that, I had to install a s3 tool called s3cmd. This 
+command is used to list,delete,create and put buckets and folders on S3.
+ I used this tool in the script to run automatically once it has created
+ the backups and use the put command to place them.</p>
+<blockquote><p>/home/ec2-user/bin/s3cmd put $BACKUPDIRPATH s3://skydevopsbackups/MYSQLBackups/ –recursive &gt; /tmp/s3cmd.log</p></blockquote>
+<p>These are the folders where all the backups and logs are stored:</p>
+<p><img class=" alignright" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/kjRBqnR.png" alt="" height="315" width="422"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>This shows that the backup script is create the folder on the current day:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/uROjbT3.png" alt="" height="182" width="439"></p>
+<p>The following folder contains the backups. The last 3 backups show 
+that the cronjob is automatically creating backups every hour.</p>
+<p>&nbsp;</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/cqsRcLK.png" alt="" height="534" width="1598"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/20/sql-backup-scripts/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-20T14:15:44+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/bilal-hussain/">bilal hussain</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/20/sql-backup-scripts/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=65&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-35" class="post-35 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/20/rds-aws-mysql/" rel="bookmark">RDS AWS MYSQL</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>We as a team decided to use AWS RDS MYSQL service as it is simple 
+and integrated with Amazon Web Services. AWS allows the option to spread
+ the databases through multiple sites by using the concept of master and
+ slaves. The master copy is the main database instance and the slaves 
+are replicating the database. Hence if the main database goes down, the 
+slave takes over until the master is brought back up again.</p>
+<p>To create RDS, we have to select RDS service the AWS Dashboard:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/i3D034w.png" alt="" height="514" width="838"></p>
+<p>Click on Launch DB Instance to create a new instance</p>
+<p>&nbsp;</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/yNuwEF8.png" alt="" height="494" width="1354"></p>
+<p>This will prompt the user to select an option to what type of 
+Relation Database System the user would like to select. For this case, I
+ selected MySQL as the developer’s application requirement was built 
+upon MySQL platform. Once it is selected, the user is prompted with 
+whether to use the Multi AZ deployment service or to be used on one 
+location. I selected MultiAZ deployment as this ensures my database is 
+secure so for instance if my master database located in Ireland data 
+centre site A goes down, the database is replicated to another Site e.g.
+ Site B which will pick up the jobs until the Site A database comes back
+ up.</p>
+<p>Once that is complete, final step is to configure the instance 
+specifications and settings. This includes, attaching a pre-configured 
+policy, Database Instance Identifier, Master username and password. The 
+next option takes the configurations further to network, security, 
+backups and Database options which includes giving it a name. Most of it
+ is by default pre-configured unless in some circumstances it needs to 
+be changed.</p>
+<p>Finally once the instance is completed, the new instance starts to create itself and appears on the RDS dashboard.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/op92mJX.png" alt="" height="344" width="1936"></p>
+<p><strong>MYSQL Monitor</strong></p>
+<p>To integrate with the database, I need to have an instance where I 
+can run MySQL utilities which can then be used to connect to the RDS 
+database on amazon using the endpoint. The endpoint is a URL which runs 
+over https and can be found in the Database information:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/jPyvXJu.png" alt="" height="720" width="1812"></p>
+<p>Once the endpoint is noted, I launched a new EC2 instance which was 
+used to install mysql locally. Once it was installed, I ran the 
+following command to access mysql:</p>
+<blockquote>
+<p style="text-align: left;">mysql -u admin -P 3306 -h&nbsp;skydevop2015database.czk330ifgg3j.eu-west-1.rds.amazonaws.com -p**************</p>
+</blockquote>
+<p>once in mysql monitor, a script which was provided to us by the 
+developer was executed to create the table and add the datasets into the
+ table. Once the table was inserted, it was time to test it on the php 
+app to ensure that the application is able to select datasets 
+dynamically.</p>
+<p>To test it, I created a new test EC2 instance which was used to the 
+deploy the application running on LAMP stack except the MYSQL was not 
+really needed as we have a RDS instance running in Amazon Cloud. The 
+only thing that needed modifying was defining the php file to integrate 
+with RDS instance. To do this, I had to change the file useful.php:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/IsnYyAB.png" alt="" height="258" width="1810"></p>
+<p>Once this was complete, the webapp was successfully able to access 
+the data from the users table so they could be used to log in.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/20/rds-aws-mysql/" rel="bookmark"><time class="entry-date published" datetime="2015-08-20T13:51:15+00:00">August 20, 2015</time><time class="updated" datetime="2015-08-20T14:17:03+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/bilal-hussain/">bilal hussain</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/20/rds-aws-mysql/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=35&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-62" class="post-62 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/20/infrastructure-diagrams-and-plans/" rel="bookmark">Infrastructure Diagrams and Plans</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>In the end the final infrastructure matches our initial plans very 
+closely. One major difference however is the lack of CodeDeploy due to 
+aforementioned problems with our access to this service with our AWS 
+student accounts. Because of this, Jenkins is configured to deploy the 
+Tomcat application file to the Puppet Master which then uses this to 
+provision the agents, rather than having Jenkins trigger CodeDeploy to 
+roll out updates builds across the instances.</p>
+<p>Below is a photo of our whiteboard where we planned out the infrastructure initially.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/ZS2mLIe.jpg" alt="" height="2988" width="5312"></p>
+<p>A sketch of our planned infrastructure once we realised we couldn’t use CodeDeploy looked like this:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/qxSL29h.jpg" alt="" height="2988" width="5312"></p>
+<p>And finally here is a more clear, digital version of this flow 
+diagram which shows how the various services and tools connect and 
+communicate with each other.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/Bs1guZY.png" alt="" height="633" width="992"></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/20/infrastructure-diagrams-and-plans/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-20T13:38:35+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/ali/">Ali Kerr</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/20/infrastructure-diagrams-and-plans/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=62&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-55" class="post-55 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/20/jenkins-notifications/" rel="bookmark">Jenkins Notifications</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Today we did some simple email configurations in Jenkins to make 
+sure individual developers could be notified of changes made breaking 
+the build. We setup notifications for our team’s devops gmail account as
+ well as Selvyn’s (who assumed the role of the developer in this 
+project).</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/dhJhNOt.png" alt="" height="574" width="1734"></p>
+<p>Shown working below:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/kAnAKbR.png" alt="" height="482" width="2510"></p>
+<p>The email notifies you of the problem and sends a link.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/7T8NwVi.png" alt="" height="394" width="2014"></p>
+<p>Following the link takes you to the Jenkins interface with information regarding the unstable/ failed build.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/v9dr90Q.png" alt="" height="526" width="1520"></p>
+<p>Clicking on the commit link takes you to the change record on the 
+GitHub repository to see what changes were made to the repository that 
+caused this build to fail.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/6wSuQQq.png" alt="" height="856" width="1904"></p>
+<p>As can be seen above, Selvyn’s change to the code meant that the 
+wrong date was being sent back, and so the Unit tests he had written to 
+test this part of the code failed, causing the build to be marked 
+unstable. This triggered the emails to be sent out, and also meant that 
+the build was not deployed to the Puppet Master.</p>
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/20/jenkins-notifications/" rel="bookmark"><time class="entry-date published" datetime="2015-08-20T10:40:05+00:00">August 20, 2015</time><time class="updated" datetime="2015-08-20T11:11:28+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/ali/">Ali Kerr</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/20/jenkins-notifications/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=55&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-45" class="post-45 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/20/standup-meeting-20th-august-2015/" rel="bookmark">Standup Meeting 20th August 2015</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong>Scott</strong></p>
+<p>Yesterday Scott provisioned Tomcat agents with puppet and worked on 
+linking with the Puppet master to complete the Continuous Delivery 
+pipeline. He set up configrations and a symlink so that the Puppet 
+master could integrate the application’s war file into the build.</p>
+<p>Today he will build a LAMP stack with puppet (minus MySQL as we will 
+be using AWS RDS) for the agent nodes , and set up autoscaling / load 
+balancer with James.</p>
+<p>Blockages: licensing issue for puppet, only 10 licenses for puppet 
+enterprise. Have to manually revoke licenses for destroyed servers if we
+ want to issue more<strong><br>
+</strong></p>
+<p>&nbsp;</p>
+<p><strong>Michael</strong></p>
+<p>Today Michael will be setting up AWS CloudWatch for monitoring of the
+ servers, and generally getting up to speed with the project<strong><br>
+</strong></p>
+<p>&nbsp;</p>
+<p><strong>James</strong></p>
+<p>Yesterday James worked on the load balancer and autoscaling groups in AWS and got it working.</p>
+<p>Today he will be applying this to the final setup so that we have a more robust infrastructure.<strong><br>
+</strong></p>
+<p>&nbsp;</p>
+<p><strong>Bilal</strong></p>
+<p>Yesterday Bilal and Ali finished setting up Jenkins. Bilal worked on 
+CodeDeploy but unfortunately found that we wouldn’t be able to use it. 
+He also set up RDS with redundancy and tested this with the 2<sup>nd</sup> webapp.</p>
+<p>Today he will work on backup scripts for the SQL database and store these on S3 bucket.</p>
+<p>&nbsp;</p>
+<p><strong>Ali</strong></p>
+<p>Yesterday Ali and Bilal set up Jenkin’s final configurations for the 
+Continuous Delivery pipeline, adding post build actions to send build 
+artifacts to the puppet master for deployment. Ali also set up Vagrant 
+to create a virtual environment with LAMP stack that developers can use 
+to develop or test out code.</p>
+<p>Today he will make sure everything in Jenkins is configured properly,
+ and take advantage of slack to see where else he can help out.</p>
+<p>&nbsp;</p>
+<p><strong>John</strong></p>
+<p>Today I will assisting Michael with CloudWatch which we will use to 
+monitor the servers. I will also be updating myself on yesterdays tasks 
+in preparation for Friday due to my absence.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/20/standup-meeting-20th-august-2015/" rel="bookmark"><time class="entry-date published" datetime="2015-08-20T08:38:56+00:00">August 20, 2015</time><time class="updated" datetime="2015-08-20T09:07:17+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/ali/">Ali Kerr</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/20/standup-meeting-20th-august-2015/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=45&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-43" class="post-43 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/19/deploying-the-java-app-via-puppet/" rel="bookmark">Deploying the Java app via Puppet</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>The Java web app needs to be deployed by puppet to ensure that 
+continuous delivery can be achieved. Changes to the application will be 
+pushed to the remote repo by the development team and from there Jenkins
+ will take the code and build the application.</p>
+<p>If the application build fails, an alert email will be sent and the 
+process will stop, but if all tests are successful, the code will be 
+passed onto puppet so that the changes can be introduced to the new 
+system.</p>
+<p>Once Jenkins has passed all tests it will use a bash script built by 
+Ali and copy the tomcat.war file into the Jenkins user’s directory 
+within the puppet master node:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/W4vk72l.png" alt="" height="410" width="482"></p>
+<p>To allow the agent_tomcat module within puppet to access the war file
+ I created a symbolic link between the Jenkins user directory, and the 
+puppet module files (/etc/puppetlabs/puppet/modules/agent_tomcat/files).</p>
+<p><strong>ln -s /etc/puppetlabs/puppet/modules/agent_tomcat/files/ /home/jenkins/war_files</strong></p>
+<p>When building the puppet manifest for java web app agents I added code for:</p>
+<ul>
+<li>Installing Tomcat 7</li>
+<li>Load in the modified configuration (changed to port 80)</li>
+<li>Change Ubuntu settings via a bash script to allow Tomcat to run on a privileged port (port 1 – 1024)</li>
+<li>&nbsp;Ensure webapps directory existed</li>
+<li>Copy tomcat.war file to remote server</li>
+<li>Modify index page of the ROOT website so that end users are redirected to the correct application.</li>
+</ul>
+<p>class agent_tomcat {</p>
+<p># Install Tomcat<br>
+package {‘tomcat7′:<br>
+ensure =&gt; present,<br>
+}</p>
+<p># Load in config file<br>
+file {‘/etc/tomcat7/server.xml':<br>
+ensure =&gt; file,<br>
+owner =&gt; ‘root’,<br>
+group =&gt; ‘tomcat7′,<br>
+source =&gt; ‘puppet:///modules/agent_tomcat/server.xml’,<br>
+require =&gt; Package[‘tomcat7′],<br>
+}</p>
+<p># Update /etc/default/tomcat7 to ensure tomcat can run on priv port<br>
+file {‘/etc/default/tomcat7′:<br>
+ensure =&gt; file,<br>
+owner =&gt; ‘root’,<br>
+group =&gt; ‘root’,<br>
+source =&gt; ‘puppet:///modules/agent_tomcat/tomcat7′,<br>
+require =&gt; Package[‘tomcat7′],<br>
+}</p>
+<p>file { ‘my_bash_script':<br>
+ensure =&gt; ‘file’,<br>
+source =&gt; ‘puppet:///modules/agent_tomcat/tomcat_ports.sh’,<br>
+path =&gt; ‘/usr/local/bin/tomcat_ports.sh’,<br>
+owner =&gt; ‘root’,<br>
+group =&gt; ‘root’,<br>
+mode =&gt; ‘0744’, # Use 0700 if it is sensitive<br>
+notify =&gt; Exec[‘run_my_script’],<br>
+}</p>
+<p>exec { ‘run_my_script':<br>
+command =&gt; ‘/usr/local/bin/tomcat_ports.sh’,<br>
+refreshonly =&gt; true,<br>
+}</p>
+<p># Copy web files over to root<br>
+file {‘/var/lib/tomcat7′:<br>
+ensure =&gt; directory,<br>
+}</p>
+<p>file {‘/var/lib/tomcat7/webapps':<br>
+ensure =&gt; directory,<br>
+}</p>
+<p>file {‘/var/lib/tomcat7/webapps/tomcat.war':<br>
+ensure =&gt; file,<br>
+source =&gt; ‘puppet:///modules/agent_tomcat/tomcat.war’,<br>
+}</p>
+<p># Set up redirect for web app<br>
+file {‘/var/lib/tomcat7/webapps/ROOT/index.html':<br>
+ensure =&gt; file,<br>
+source =&gt; ‘puppet:///modules/agent_tomcat/index.html’,<br>
+}</p>
+<p>service {‘tomcat7′:<br>
+ensure =&gt; running,</p>
+<p>}<br>
+}</p>
+<p>Once the script had been created, I spun up a few aws instances to 
+ensure that the puppet scripts installed all packages and provisioned 
+the server correctly.</p>
+<p>To identify nodes when they connect to puppet I created a new group 
+and added a ec2_security_group parameter so that the nodes can be 
+identified via their allocated security group:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/4kLgGdb.png" alt="" height="549" width="1248"></p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/DiL7kBP.png" alt="" height="575" width="1250"></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/19/deploying-the-java-app-via-puppet/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-19T21:02:22+00:00">August 19, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/scott-solkhon/">scott solkhon</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/19/deploying-the-java-app-via-puppet/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=43&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-41" class="post-41 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/19/adding-a-puppet-master-instance-to-aws/" rel="bookmark">Adding a puppet master instance to AWS</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>First I selected the image for the puppet server. I selected Ubuntu
+ 14.04 (64 bit) as this is the chosen Linux distribution for the case 
+study.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/rmjL6HV.png" alt="" height="280" width="692"></p>
+<p>I then selected the puppet master instance type. I chose to use a t2.large instance that had 2 CPU’s and 8GB of RAM.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/0WR46mp.png" alt="" height="299" width="692"></p>
+<p>I then gave the puppet server 50GB of disc space:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/nJHo6yy.png" alt="" height="252" width="692"></p>
+<p>I added a ‘name’ tag to the server of ‘puppet-master’ so that it can be easily identified via the AWS console:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/7xGha72.png" alt="" height="146" width="692"></p>
+<p>In order to access the puppet server I added the following ports to a
+ new security group ‘puppet master’ and assigned this to the puppet 
+master instance:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/Gg8bM9H.png" alt="" height="275" width="692"></p>
+<p>8140</p>
+<p>3000</p>
+<p>22</p>
+<p>80</p>
+<p>443</p>
+<p>4433</p>
+<p>61613</p>
+<p>5432</p>
+<p>8081</p>
+<p>4435</p>
+<p>The puppet master node is the first node being added to the amazon 
+web service configuration. I added a new key pair called ‘sky’ which 
+will be assigned to future servers in order to gain access them.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/vTYK4MJ.png" alt="" height="323" width="692"></p>
+<p>The AWS instance has now been created:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/FJ2SUSY.png" alt="" height="199" width="692"></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/19/adding-a-puppet-master-instance-to-aws/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-19T20:35:51+00:00">August 19, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/scott-solkhon/">scott solkhon</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/19/adding-a-puppet-master-instance-to-aws/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=41&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-39" class="post-39 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/19/installing-puppet-enterprise/" rel="bookmark">Installing puppet enterprise</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>To make the sky.pem usable I changed the permissions:</p>
+<p><strong><em>$ chmod 600 sky.pem</em></strong></p>
+<p>To start the installing puppet master I logged into the puppet server via SSH:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/fkePs9y.png" alt="" height="494" width="692"></p>
+<p>I then logged into the root user:</p>
+<p><strong><em>ubuntu@ip-172-31-21-124:~$ sudo bash</em></strong></p>
+<p>I then updated the hostname:</p>
+<p><strong><em>root@ip-172-31-21-124:~# sudo hostname master</em></strong></p>
+<p><strong><em>root@ip-172-31-21-124:~# sudo su -c ‘echo master &gt; /etc/hostname’</em></strong></p>
+<p><strong><em>root@ip-172-31-21-124:~# sudo su -c ‘echo 52.16.190.24 master master.acme.com &gt;&gt;/etc/hosts’</em></strong></p>
+<p>We are now ready to install the puppet enterprise server.</p>
+<p>To start I downloaded the source code:</p>
+<p><strong><em>root@ip-172-31-21-124:~# </em>wget https://s3-eu-west-1.amazonaws.com/puppet-installers/puppet-enterprise-3.7.1-ubuntu-14.04-amd64.tar.tar</strong></p>
+<p>unzip the source code:</p>
+<p><strong><em>root@ip-172-31-21-124:~# tar -xvf puppet-enterprise-3.7.1-ubuntu-14.04-amd64.tar.tar</em></strong></p>
+<p>Run the installer:</p>
+<p><strong><em>root@ip-172-31-21-124:~# cd puppet-enterprise-3.7.1-ubuntu-14.04-amd64</em></strong></p>
+<p><strong><em>root@ip-172-31-21-124:~/puppet-enterprise-3.7.1-ubuntu-14.04-amd64# ./puppet-enterprise-installer</em></strong></p>
+<p>Once the installer was ready I navigated to my browser and continued the installation:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/JUax34C.png" alt="" height="494" width="692"></p>
+<p>I had to accept the ssl certificate as it is self-signed:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/kUwB23F.png" alt="" height="375" width="692"></p>
+<p>I then followed the installation guide to complete the installation process:</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/228lJdf.png" alt="" height="645" width="692"><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/9Vooj02.png" alt="" height="366" width="692"><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/4tEAASE.png" alt="" height="374" width="692"></p>
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/19/installing-puppet-enterprise/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-19T20:27:11+00:00">August 19, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/scott-solkhon/">scott solkhon</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/19/installing-puppet-enterprise/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=39&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-33" class="post-33 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/19/vagrant-lamp-stack-on-ubuntu-14-04-development-testing-environment/" rel="bookmark">Vagrant LAMP stack on Ubuntu 14.04 – Development/ Testing environment</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>While the Tomcat application has built in unit tests which are 
+useful for allowing for a step of testing in the Continuous Integration 
+environment (Jenkins), this cannot be said for the other web 
+application. Unit Tests allow for builds to be verified before they are 
+deployed, and this meant that we could have a fully automated Continuous
+ Delivery pipeline without having to worry about faulty or broken builds
+ being deployed to production servers. Without such a possibility for 
+the 2nd application, we need a way for the developer(s) to test out 
+their work in an environment mimicking the production environment so 
+that they do not have to wait until their code is deployed live to find 
+out if it will work.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/1P0thhr.png" alt="" height="754" width="1386"><br>
+This comes in extension to whatever local testing they would do (e.g. in
+ their IDE). Rather than spinning up a new online instance 
+unnecessarily, the production environment can be replicated locally 
+using a Virtual Machine (VM). However, a developer (presumably) would 
+not want to spend lots of time configuring a server and installing all 
+the packages they need, setting up the infrastructure etc. They want to 
+spin something up that they can quickly and easily test their code on. 
+For this reason, we decided it was a good idea to use Vagrant and Puppet
+ to start up a Virtual Machine and bootstrap it with the necessary 
+packages.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/x5r06TD.png" alt="" height="592" width="1182"></p>
+<p>Vagrant looks for and – if necessary – downloads the Ubuntu 14.04 
+vmbox from the internet at a given URL, and installs it before calling a
+ bash script I wrote to install puppet. Vagrant is also configured to 
+point to a ‘puppet’ folder with the manifests and modules (I used a LAMP
+ stack module from puppetforge), which means that as soon as the process
+ is finished the VM is setup with Apache2, MySQL and PHP. Furthermore, 
+Vagrant was set up to configure a shared folder which the developer can 
+place their website files in so that again, as soon as the VM is ready, 
+their website/ web application is available rooted through to the host 
+machine on localhost:8084.</p>
+<p><img class="alignnone" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/rwP9RZV.png" alt="" height="948" width="2248"></p>
+<p>Alastair Kerr</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/19/vagrant-lamp-stack-on-ubuntu-14-04-development-testing-environment/" rel="bookmark"><time class="entry-date published" datetime="2015-08-19T17:05:13+00:00">August 19, 2015</time><time class="updated" datetime="2015-08-20T08:44:52+00:00">August 20, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/ali/">Ali Kerr</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/19/vagrant-lamp-stack-on-ubuntu-14-04-development-testing-environment/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=33&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-24" class="post-24 post type-post status-publish format-standard hentry category-uncategorized">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://52.19.82.119/index.php/2015/08/19/codedeploy-documentation-of-progress/" rel="bookmark">CodeDeploy (Documentation of progress)</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="text-align: left;">To install code deploy, I first need to set up IAM roles and attach modified policies. The new roles are :</p>
+<ul>
+<li style="text-align: left;">CodeDeploy</li>
+<li style="text-align: left;">EC2CodeDeploy</li>
+</ul>
+<p>Code Deploy Policy:</p>
+<pre>{
+
+&nbsp;"Version": "2012-10-17",
+
+&nbsp;"Statement": [
+
+&nbsp;&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Action": [
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:PutLifecycleHook",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:DeleteLifecycleHook",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:RecordLifecycleActionHeartbeat",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:CompleteLifecycleAction",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:DescribeAutoscalingGroups",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:PutInstanceInStandby",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"autoscaling:PutInstanceInService",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ec2:Describe*"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Effect": "Allow",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Resource": "*"
+
+&nbsp;&nbsp;&nbsp;}
+
+&nbsp;]
+
+}
+
+Once created, I need to edit the relationship trust by click edit relationship trust and replace the contents with the following:</pre>
+<pre>{
+
+&nbsp;"Version": "2012-10-17",
+
+&nbsp;"Statement": [
+
+&nbsp;&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Sid": "",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Effect": "Allow",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Principal": {
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Service": [
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"codedeploy.us-west-2.amazonaws.com",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"codedeploy.us-east-1.amazonaws.com"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Action": "sts:AssumeRole"
+
+&nbsp;&nbsp;&nbsp;}
+
+&nbsp;]
+
+}
+
+
+</pre>
+<p>Repeat the above step with EC2CodeDeploy but no need to update the 
+trust policy. Once roles are created, launch an EC2 instance with the 
+EC2DeployPolicy attached. In the EC2 instance, first install AWS command
+ line. To install aws cli:</p>
+<ol>
+<li>Make sure python is installed by typing “python –version”</li>
+<li>Sudo apt-get update</li>
+<li>sudo apt-get install awscli</li>
+<li>run aws help to check if it has installed successfully</li>
+</ol>
+<p>The following steps to install CodeDeploy Agent</p>
+<ol>
+<li>aws s3 cp s3://aws-codedeploy-eu-west-1/latest/install . –region eu-west1-1</li>
+<li>chmod +x install</li>
+<li>sed -i “s/sleep(.*)/sleep(10)/” install</li>
+<li>Make sure ruby v2.0 is installed if not, run sudo apt-get install ruby2.0</li>
+<li>./install auto</li>
+<li>service codedeploy-agent status</li>
+</ol>
+<p>We ended up not using it as we did not have proper right to use code deploy service.</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://52.19.82.119/index.php/2015/08/19/codedeploy-documentation-of-progress/" rel="bookmark"><time class="entry-date published updated" datetime="2015-08-19T16:58:57+00:00">August 19, 2015</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="http://52.19.82.119/index.php/author/bilal-hussain/">bilal hussain</a></span></span><span class="comments-link"><a href="http://52.19.82.119/index.php/2015/08/19/codedeploy-documentation-of-progress/#respond">Leave a comment</a></span>		<span class="edit-link"><a class="post-edit-link" href="http://52.19.82.119/wp-admin/post.php?post=24&amp;action=edit">Edit</a></span>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class="page-numbers current"><span class="meta-nav screen-reader-text">Page </span>1</span>
+<a class="page-numbers" href="http://52.19.82.119/index.php/page/2/"><span class="meta-nav screen-reader-text">Page </span>2</a>
+<a class="next page-numbers" href="http://52.19.82.119/index.php/page/2/">Next page</a></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/admin-bar.js"></script>
+<script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/functions.js"></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://52.19.82.119/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://52.19.82.119/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://52.19.82.119/wp-admin/">DevOps Case Study</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item" href="http://52.19.82.119/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes" class="hide-if-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize-themes" class="hide-if-no-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/customize.php?url=http%3A%2F%2F52.19.82.119%2F&amp;autofocus%5Bsection%5D=themes">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/customize.php?url=http%3A%2F%2F52.19.82.119%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets" class="hide-if-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-customize-widgets" class="hide-if-no-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/customize.php?url=http%3A%2F%2F52.19.82.119%2F&amp;autofocus%5Bpanel%5D=widgets">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://52.19.82.119/wp-admin/nav-menus.php">Menus</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/themes.php?page=custom-background">Background</a>		</li>
+		<li id="wp-admin-bar-customize-background" class="hide-if-no-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/customize.php?url=http%3A%2F%2F52.19.82.119%2F&amp;autofocus%5Bcontrol%5D=background_image">Background</a>		</li>
+		<li id="wp-admin-bar-header" class="hide-if-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/themes.php?page=custom-header">Header</a>		</li>
+		<li id="wp-admin-bar-customize-header" class="hide-if-no-customize"><a class="ab-item" href="http://52.19.82.119/wp-admin/customize.php?url=http%3A%2F%2F52.19.82.119%2F&amp;autofocus%5Bcontrol%5D=header_image">Header</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://52.19.82.119/wp-admin/update-core.php" title="1 Plugin Update, 3 Theme Updates"><span class="ab-icon"></span><span class="ab-label">4</span><span class="screen-reader-text">1 Plugin Update, 3 Theme Updates</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://52.19.82.119/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://52.19.82.119/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://52.19.82.119/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://52.19.82.119/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://52.19.82.119/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://52.19.82.119/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://52.19.82.119/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" maxlength="150" type="text"><label for="adminbar-search" class="screen-reader-text">Search</label><input class="adminbar-button" value="Search" type="submit"></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://52.19.82.119/wp-admin/profile.php">Howdy, Ali Kerr<img alt="" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/267c44fe02b4809d1fde6aabb25c43ad.jpg" srcset="http://2.gravatar.com/avatar/267c44fe02b4809d1fde6aabb25c43ad?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://52.19.82.119/wp-admin/profile.php"><img alt="" src="DevOps%20Case%20Study%20%7C%20documentation%20method%20for%20the%20DevOps%202015%20case%20study_files/267c44fe02b4809d1fde6aabb25c43ad_002.jpg" srcset="http://2.gravatar.com/avatar/267c44fe02b4809d1fde6aabb25c43ad?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">Ali Kerr</span><span class="username">ali</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://52.19.82.119/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://52.19.82.119/wp-login.php?action=logout&amp;_wpnonce=6f8e5fc4af">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://52.19.82.119/wp-login.php?action=logout&amp;_wpnonce=6f8e5fc4af">Log Out</a>
+					</div>
+
+		
+
+
+</body></html>
