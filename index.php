@@ -128,8 +128,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <!-- Project Zero -->
         <div class="row">
             <div class="col-md-7">
-                <a href="../ofc">
-                    <img class="img-responsive" src="images/disso_img-min.jpg" alt="Wordpress screenshot here">
+                <a href="../wp/DevOps_CaseStudy.html" target="_blank">
+                    <img class="img-responsive" src="images/infra_digital.png" alt="Whiteboard diagram of the infrastructure we created">
                 </a>
             </div>
             <div class="col-md-5">
@@ -137,8 +137,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 <h4>Continuous Delivery Pipeline</h4>
                 <p>In this Case Study our team worked on a Continuous Delivery Pipeline using software such as Jenkins, Puppet and Amazon Web Services.</p>
                 <p>We created a full pipeline so that a developer's pushes to a git repository triggered a Jenkins build that ran Unit Tests. If these passed, the code would then be deployed to production servers through agents provisioned by a Puppet master server.</p>
-                <p>The project also entailed creating a virtual environment for testing with Vagrant, auto-scaling, load-balancing and monitoring.</p>
-                <a class="btn btn-primary" href="../DevOps_CaseStudy.html">Read the wordpress! <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p>The project also entailed creating a virtual environment for testing with Vagrant, as well as configuring the system for auto-scaling, load-balancing and monitoring.</p>
+                <a class="btn btn-primary" href="../wp/DevOps_CaseStudy.html" target="_blank">Read the wordpress! <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
